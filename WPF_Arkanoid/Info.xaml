@@ -1,0 +1,17 @@
+﻿<Window x:Class="WPF_Arkanoid.Info"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Arkanoid"
+        mc:Ignorable="d"
+        Title="Info" Height="135.6" Width="1013.067">
+    <Grid Background="#FF0E0E0E">
+        <Label Content="Горячие клавиши : ESC - Пауза, R - Возобновить игру, S - Сохранить игру, L - Загрузить игру, B - Применить черно-белый стиль, G - Применить цветной стиль, M - выкл музыки" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Правила игры - нужно двигать вашу платформу и уничтожать вражеские платформы мячём. Как только платформы кончатся, вы победили!" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Разработал ученик Щербаков Антон, группа БД-911." HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Foreground="White"/>
+
+
+
+    </Grid>
+</Window>
